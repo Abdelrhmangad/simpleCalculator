@@ -1,0 +1,70 @@
+body {
+    background: linear-gradient(30deg, #ff0099, #0100ff);
+    height: 1000px;
+    padding: 100px
+}
+
+.container {
+    background: transparent;
+    border-radius: 20px;
+    border: 4px dashed rgba(255, 0, 153, 0.59);
+    box-shadow: 2px 3px 200px 50px transparent;
+    height: auto;
+    display: block;
+    padding: 30px 50px;
+    margin: auto;
+    max-width: 665px
+}
+
+.container .workspace {
+    border: none;
+}
+
+.container .workspace input {
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 10px;
+    background: white;
+    font-size: 30px;
+    display: block
+}
+
+.container .btns {
+    background: rgba(142, 104, 127, 0.2);
+    border-radius: 7px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container .btns input {
+    width: 25%;
+    margin: 7px auto;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px 5px rgba(185, 34, 221, 0.85);
+}
+
+.container .btns .numbers input:last-child {
+    width: 51%;
+}
+
+.container .btns input:hover {
+    transform: scale(0.95);
+}
+
+.container .btns .operators input:not(last-child) {
+    width: 46%;
+    margin-right: 4px;
+}
+
+.container .btns .operators input:last-child {
+    width: 96%;
+}
